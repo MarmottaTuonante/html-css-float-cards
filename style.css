@@ -1,0 +1,191 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+header h1 {
+    color: deeppink;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 7px;
+}
+
+header p {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1400px;
+    height: 165px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Main */
+.second-container {
+    width: 1400px;
+    height: 570px;
+    margin: auto;
+    text-align: center;
+}
+
+.cards1 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/male1.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 132px;
+}
+
+.cards2 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/female1.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.cards3 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/male2.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px
+}
+
+.cards4 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/female2.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 132px;
+}
+
+.cards5 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/male3.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+    ;
+}
+
+.cards6 {
+    width: 350px;
+    height: 100px;
+    background-image: url(../html-css-float-cards/assets/img/female3.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 125px 125px;
+    background-color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.cards1:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards2:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards3:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards4:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards5:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards6:hover {
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 134px;
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+}
+
+.role {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 135px;
+    float: left;
+}
+
+.contact {
+    color: lightblue;
+    font-size: 15px;
+    margin: auto;
+    margin-left: 78px;
+    display: inline-block;
+    margin-top: 10px;
+}
